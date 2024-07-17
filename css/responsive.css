@@ -30,6 +30,10 @@
         font-size: 32px;
     }
 
+    .col p {
+        font-size: 20px;
+    }
+
     /* ridimensionamento colonne e contenuti */
     .row {
         flex-direction: column;
@@ -37,15 +41,31 @@
     }
 
     .row .col {
-        width: 70%;
+        width: 85%;
         margin-bottom: 30px;
     }
 
     .col .card img {
         height: 250px;
     }
-
     
+    /* spaziature */
+
+    .steps {
+        margin: 0;
+    }
+
+    .why-us{
+        background-color:#222222;
+        padding-top: 50px;
+        margin-bottom: 0;
+    }
+
+    /* colonna academy */
+
+    .why-us .col-right {
+        width: 86%;
+    }
 
 
 }
