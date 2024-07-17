@@ -7,3 +7,17 @@
     }
     
 }
+
+
+/* Media Query mobile < 576px */
+
+@media screen and (max-width:576px) {
+    .container {
+        max-width: 510px;
+    }
+    
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
