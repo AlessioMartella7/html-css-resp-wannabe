@@ -1,0 +1,9 @@
+/* Media Query tablet < 768px */
+
+@media screen and (max-width:768px) {
+
+    .container {
+       max-width: 690px;
+    }
+    
+}
